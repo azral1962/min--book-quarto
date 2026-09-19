@@ -1,0 +1,9 @@
+# Praktik {#sec-praktik}
+
+Bab ini melanjutkan @sec-dasar.
+
+## Latihan
+
+1. Ganti judul buku.
+2. Tambahkan bab.
+3. Render menjadi PDF.

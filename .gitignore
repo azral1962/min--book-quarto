@@ -1,0 +1,11 @@
+.upstream/
+.quarto/
+_book/
+*.pdf
+*.typst
+template.typ
+tests/output/
+examples/book/_extensions/
+examples/book/*.typ
+
+/.luarc.json

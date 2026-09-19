@@ -1,0 +1,17 @@
+---
+title: Elegance
+author: Example Author
+format: min-book-quarto-typst
+lang: en
+min-book:
+  theme: elegance
+  parts: true
+  two-sided: false
+  paper-friendly: false
+---
+
+# First Part
+
+## First Chapter
+
+A chapter in the elegance theme.

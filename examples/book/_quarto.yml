@@ -1,0 +1,22 @@
+project:
+  type: book
+  output-dir: _book
+book:
+  title: "Buku Contoh"
+  author: "Nama Penulis"
+  chapters:
+    - index.qmd
+    - part: "Dasar"
+      chapters:
+        - dasar.qmd
+    - part: "Praktik"
+      chapters:
+        - praktik.qmd
+format:
+  min-book-quarto-typst:
+    keep-typ: true
+lang: id
+min-book:
+  parts: true
+  paper-friendly: false
+  publication-date: "2026-09-19"

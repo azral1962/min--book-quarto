@@ -1,0 +1,29 @@
+---
+title: 'A "quoted" title & [brackets]'
+author:
+  - name: 'A "quoted" author'
+  - name: 'Second Author'
+format: min-book-quarto-typst
+lang: en
+toc: false
+number-sections: false
+keep-typ: true
+min-book:
+  theme: coffee
+  cover: false
+  titlepage: false
+  two-sided: false
+  paper-friendly: false
+  dedication: 'A **bold** dedication with [brackets].'
+  edition: 2
+  volume: 1
+  publication-date: '2026-09-19'
+---
+
+# Unnumbered chapter
+
+No cover, title page, or table of contents should appear.
+
+## Section
+
+The author metadata contains literal quotation marks.

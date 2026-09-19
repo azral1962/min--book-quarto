@@ -1,0 +1,56 @@
+---
+title: "Menulis Buku dengan Quarto"
+subtitle: "Templat min-book untuk Typst"
+author: "Nama Penulis"
+lang: id
+format: min-book-quarto-typst
+keep-typ: true
+min-book:
+  theme: stylish
+  publication-date: "2026-09-19"
+  two-sided: true
+  paper-friendly: false
+  dedication: "Untuk semua yang senang berbagi pengetahuan."
+---
+
+# Pendahuluan {#sec-pendahuluan}
+
+Buku ini ditulis dalam **Markdown** dan dirender menjadi PDF melalui Typst.
+Sampul, halaman judul, daftar isi, dan tata letak bab disediakan oleh min-book.
+
+## Menulis isi buku
+
+Gunakan satu tanda pagar untuk bab dan dua tanda pagar untuk subbab.
+Catatan kaki juga dapat digunakan.[^catatan]
+
+[^catatan]: Contoh catatan kaki dalam buku.
+
+> Pengetahuan tumbuh ketika dibagikan.
+
+# Contoh Materi {#sec-contoh}
+
+Lihat @sec-pendahuluan untuk pengantar. Persamaan sederhana:
+
+$$
+E = m c^2
+$$ {#eq-energi}
+
+@eq-energi merupakan contoh persamaan dengan rujukan silang.
+
+| Unsur | Penulisan |
+|:------|:----------|
+| Bab | Satu tanda pagar |
+| Subbab | Dua tanda pagar |
+
+: Struktur dokumen {#tbl-struktur}
+
+@tbl-struktur merangkum struktur dokumen.
+
+```python
+def salam(nama):
+    return f"Halo, {nama}!"
+```
+
+## Langkah berikutnya
+
+Ganti judul, penulis, dan isi buku dengan naskah Anda.
