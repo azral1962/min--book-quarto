@@ -5,3 +5,33 @@ Bab pertama menggunakan Markdown biasa.
 ## Paragraf
 
 Tuliskan gagasan Anda dalam paragraf yang ringkas.
+
+## Ukuran kertas
+
+Atur opsi `papersize` pada format `min-book-quarto-typst` di `_quarto.yml`
+untuk mengganti ukuran kertas. Contoh ini menggunakan `a5`; ukuran lain
+yang dapat dipakai antara lain `iso-b5` dan `us-letter`.
+
+```yaml
+format:
+  min-book-quarto-typst:
+    papersize: iso-b5
+```
+
+Tema bawaan min-book memperlakukan ukuran A4 sebagai ukuran default dan
+menggantinya menjadi A5 secara otomatis.
+
+## Informasi katalog
+
+Contoh buku ini menyertakan halaman Katalog Dalam Terbitan (KDT).
+Data katalog diatur dalam berkas `catalog.typ`, yang dimuat melalui
+`include-in-header` pada format `min-book-quarto-typst` di `_quarto.yml`.
+
+Ubah `place` untuk kota terbit, `publisher` untuk nama penerbit,
+`subjects` untuk daftar subjek, dan `access` untuk titik akses katalog.
+Judul, penulis, dan tanggal terbit mengikuti metadata buku di `_quarto.yml`.
+Opsi `before` dan `after` menambahkan teks di atas dan di bawah kotak katalog.
+
+Jika tersedia, tambahkan `isbn` untuk ISBN, `id` untuk kode identifikasi
+pengarang, serta `ddc` atau `udc` untuk nomor klasifikasi. Isikan nilai tersebut
+sebagai string di dalam `catalog: (...)` sesuai data resmi buku.

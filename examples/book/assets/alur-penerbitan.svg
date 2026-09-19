@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="160" viewBox="0 0 720 160">
+  <rect width="720" height="160" fill="white"/>
+  <g fill="#e8eff5" stroke="#29465b" stroke-width="2">
+    <rect x="10" y="45" width="190" height="70" rx="8"/>
+    <rect x="265" y="45" width="190" height="70" rx="8"/>
+    <rect x="520" y="45" width="190" height="70" rx="8"/>
+  </g>
+  <g fill="#29465b" font-family="sans-serif" font-size="24" text-anchor="middle">
+    <text x="105" y="89">Naskah</text>
+    <text x="360" y="89">Penyuntingan</text>
+    <text x="615" y="89">PDF buku</text>
+  </g>
+  <g stroke="#29465b" stroke-width="3" fill="none">
+    <path d="M210 80 H250 M240 70 L250 80 L240 90"/>
+    <path d="M465 80 H510 M500 70 L510 80 L500 90"/>
+  </g>
+</svg>

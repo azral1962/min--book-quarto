@@ -1,0 +1,11 @@
+# Daftar Tabel {.unnumbered}
+
+```{=typst}
+#outline(title: none, target: figure.where(kind: "quarto-float-tbl"))
+```
+
+# Daftar Gambar {.unnumbered}
+
+```{=typst}
+#outline(title: none, target: figure.where(kind: "quarto-float-fig"))
+```

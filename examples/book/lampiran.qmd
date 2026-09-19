@@ -1,0 +1,10 @@
+# Lampiran {.unnumbered}
+
+## Daftar Periksa Penerbitan {#sec-lampiran-periksa .unnumbered}
+
+Lampiran ini melengkapi latihan pada @sec-praktik.
+
+- Pastikan setiap tabel dan gambar memiliki caption.
+- Periksa rujukan silang dan nomor halaman.
+- Cocokkan sitasi dengan daftar referensi.
+- Periksa ukuran kertas dan awal bab pada halaman ganjil.
